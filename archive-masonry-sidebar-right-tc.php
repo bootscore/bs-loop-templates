@@ -14,6 +14,8 @@
  * the post. Thus, the more-links (as they are used used in archive-masonry or 
  * archive-masonry-sidebar-right) are erased from this template.
  * 
+ * To use a masonry template with bootscore 5 / bootstrap 5 you must
+ * install the wordpress plugin bs-masonry (https://bootscore.me/#download)
  * 
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *

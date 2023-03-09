@@ -11,6 +11,9 @@
  * There is a sidebar on the riight size and up to three columns with post
  * in accordance with bs sizes
  *
+ * To use a masonry template with bootscore 5 / bootstrap 5 you must
+ * install the wordpress plugin bs-masonry (https://bootscore.me/#download)
+ *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
  * @package Bootscore

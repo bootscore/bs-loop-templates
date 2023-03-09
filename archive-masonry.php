@@ -9,7 +9,9 @@
  * Posts are presented in form of overlapping tiles
  * 
  * There's no sidebar, but up to four columns in accordance with bs sizes
- * 
+ *
+ * To use a masonry template with bootscore 5 / bootstrap 5 you must
+ * install the wordpress plugin bs-masonry (https://bootscore.me/#download)
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
