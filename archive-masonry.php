@@ -1,7 +1,15 @@
 <?php
 
 /**
- * Archive Template: Equal Height
+ * Archive Template: Masonry
+ *  
+ * (C) crftwrk, bootScore team: licensed under MIT
+ * SPDX-License-Identifier: MIT
+ * 
+ * Posts are presented in form of overlapping tiles
+ * 
+ * There's no sidebar, but up to four columns in accordance with bs sizes
+ * 
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
@@ -27,6 +35,14 @@ get_header();
         <?php if (have_posts()) : ?>
           <?php while (have_posts()) : the_post(); ?>
 
+            <!--
+              <= xs < sm: 1 column + no sidebar
+              sm <= x < md: 1 column + no sidebar
+              md <= x < lg: 2 columns + no sidebar
+              lg <= x < xl: 3 columns + no sidebar
+              xl <= x ... : 4 columns + no sidebar
+              tested with chromium Boostrap resize tool and web developer tools
+            -->
             <div class="col-md-6 col-lg-4 col-xxl-3 mb-4">
 
               <div class="card">
