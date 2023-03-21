@@ -86,9 +86,9 @@ get_header();
             <?php endwhile; ?>
           <?php endif; ?>
 
-          <div>
+          <footer class="entry-footer">
             <?php bootscore_pagination(); ?>
-          </div>
+          </footer>
 
         </main>
 

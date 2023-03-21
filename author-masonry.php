@@ -85,9 +85,9 @@ get_header();
 
       </div>
 
-      <div>
+      <footer class="entry-footer">
         <?php bootscore_pagination(); ?>
-      </div>
+      </footer>
 
     </main>
 
