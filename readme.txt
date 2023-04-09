@@ -3,7 +3,7 @@
 
 == Contributors ==
 
-Bastian Kreiter, Justin Kruit
+Bastian Kreiter, Justin Kruit, sweetappleuk
 
 
 == Description ==
