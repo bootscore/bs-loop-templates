@@ -12,7 +12,7 @@ get_header();
 ?>
 
 
-<div id="content" class="site-content <?php echo bootscore_container_class(); ?> py-5 mt-5">
+<div id="content" class="site-content <?= bootscore_container_class(); ?> py-5 mt-5">
   <div id="primary" class="content-area">
 
     <?php bs_after_primary(); ?>
@@ -21,7 +21,7 @@ get_header();
       
       <?php get_sidebar(); ?>
       
-      <div class="<?php echo bootscore_main_col_class(); ?> order-first order-md-last">
+      <div class="<?= bootscore_main_col_class(); ?> order-first order-md-last">
 
         <main id="main" class="site-main">
 
@@ -66,7 +66,7 @@ get_header();
                       
                       <p class="card-text">
                         <a class="text-body text-decoration-none" href="<?php the_permalink(); ?>">
-                          <?php echo strip_tags(get_the_excerpt()); ?>
+                          <?= strip_tags(get_the_excerpt()); ?>
                         </a>
                       </p>
                       
