@@ -11,19 +11,19 @@
 get_header();
 ?>
 
-<div id="content" class="site-content <?php echo bootscore_container_class(); ?> py-5 mt-5">
+<div id="content" class="site-content <?= bootscore_container_class(); ?> py-5 mt-5">
   <div id="primary" class="content-area">
 
     <?php bs_after_primary(); ?>
 
     <div class="row">
-      <div class="<?php echo bootscore_main_col_class(); ?>">
+      <div class="<?= bootscore_main_col_class(); ?>">
 
         <main id="main" class="site-main">
 
           <header class="page-header mb-4 d-flex">
             <div class="flex-shrink-0 me-3">
-              <?php echo get_avatar(get_the_author_meta('email'), '80', $default = '', $alt = '', array('class' => array('img-thumbnail rounded-circle'))); ?>
+              <?= get_avatar(get_the_author_meta('email'), '80', $default = '', $alt = '', array('class' => array('img-thumbnail rounded-circle'))); ?>
             </div>
             <div class="author-bio">
               <h1><?php the_author(); ?></h1>
@@ -67,7 +67,7 @@ get_header();
                       
                       <p class="card-text">
                         <a class="text-body text-decoration-none" href="<?php the_permalink(); ?>">
-                          <?php echo strip_tags(get_the_excerpt()); ?>
+                          <?= strip_tags(get_the_excerpt()); ?>
                         </a>
                       </p>
                       
