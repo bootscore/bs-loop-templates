@@ -15,4 +15,4 @@ Docs: https://bootscore.me/documentation/loop-templates/
 - Sidebar Left https://bootscore.me/archives/sidebar-left/
 - Equal Height Sidebar Right https://bootscore.me/archives/equal-height-sidebar-right/
 - Equal Height https://bootscore.me/archives/equal-height/
-- Masonry https://bootscore.me/archives/masonry/ (requires the bS Masonry plugin https://github.com/bootscore/bs-masonry)
+- Masonry https://bootscore.me/archives/masonry/ (requires the bs Masonry plugin https://github.com/bootscore/bs-masonry which is included in the .zip file as well)
