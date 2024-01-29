@@ -5,7 +5,8 @@ Docs: https://bootscore.me/documentation/loop-templates/
 
 ## Usage
 
-- Download and unzip
+- [Download](https://github.com/bootscore/bs-loop-templates/releases/latest/download/bs-loop-templates-UnzipFirst.zip
+) latest release and unzip
 - Copy files you want to use to your (child-)theme's root folder
 - Rename files as described https://developer.wordpress.org/themes/basics/template-hierarchy/
 
