@@ -1,4 +1,4 @@
-# bs-loop-templates
+# bs Loop Templates
 Additional archive, author and category templates for bootScore theme.
 
 Docs: https://bootscore.me/documentation/loop-templates/
