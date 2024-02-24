@@ -19,7 +19,7 @@ get_header();
   <div id="primary" class="content-area">
 
     <div class="row">
-      <div class="<?= bootscore_main_col_class(); ?>">
+      <div class="<?= apply_filters('bootscore/main/col_class', 'col') ?>">
 
         <main id="main" class="site-main">
 
