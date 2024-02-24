@@ -26,7 +26,7 @@ get_header();
 
         <main id="main" class="site-main">
 
-          <header class="page-header mb-4 d-flex">
+          <div class="page-header mb-4 d-flex">
             <div class="flex-shrink-0 me-3">
               <?= get_avatar(get_the_author_meta('email'), '80', $default = '', $alt = '', array('class' => array('img-thumbnail rounded-circle'))); ?>
             </div>
@@ -34,7 +34,7 @@ get_header();
               <h1><?php the_author(); ?></h1>
               <?php the_author_meta('description'); ?>
             </div>
-          </header>
+          </div>
 
           <?php if (have_posts()) : ?>
             <?php while (have_posts()) : the_post(); ?>
@@ -92,9 +92,9 @@ get_header();
             <?php endwhile; ?>
           <?php endif; ?>
 
-          <footer class="entry-footer">
+          <div class="entry-footer">
             <?php bootscore_pagination(); ?>
-          </footer>
+          </div>
 
         </main>
 

@@ -20,10 +20,10 @@ get_header();
 
     <main id="main" class="site-main">
 
-      <header class="page-header mb-4">
+      <div class="page-header mb-4">
         <h1><?php single_cat_title(); ?></h1>
         <?php the_archive_description('<div class="archive-description">', '</div>'); ?>
-      </header>
+      </div>
 
       <div class="row" data-masonry='{"percentPosition": true }'>
         <?php if (have_posts()) : ?>
@@ -83,9 +83,9 @@ get_header();
 
       </div>
 
-      <footer class="entry-footer">
+      <div class="entry-footer">
         <?php bootscore_pagination(); ?>
-      </footer>
+      </div>
 
     </main>
 
