@@ -6,7 +6,7 @@
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
  * @package Bootscore
- * @version 5.4.0
+ * @version 6.0.0
  */
 
 // Exit if accessed directly
@@ -17,8 +17,6 @@ get_header();
 
 <div id="content" class="site-content container py-5 mt-5">
   <div id="primary" class="content-area">
-
-    <?php bs_after_primary(); ?>
 
     <div class="row">
       <div class="<?= bootscore_main_col_class(); ?>">
