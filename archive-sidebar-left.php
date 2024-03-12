@@ -15,7 +15,7 @@ defined('ABSPATH') || exit;
 get_header();
 ?>
 
-<div id="content" class="site-content container py-5 mt-5">
+<div id="content" class="site-content container pt-4 pb-5">
   <div id="primary" class="content-area">
 
     <div class="row">
